@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Page/Navbar";
+import Heading from "./Component/Heading";
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ width: "99.5%", margin: "auto" }}>
       <Navbar />
+      <Heading />
     </div>
   );
 }
